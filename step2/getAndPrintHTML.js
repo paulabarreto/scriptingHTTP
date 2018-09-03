@@ -2,7 +2,7 @@ var https = require('https');
 
 var printData = [];
 
-function getAndPrintHTMLChunks () {
+function getAndPrintHTML () {
 
   var requestOptions = {
     host: 'sytantris.github.io',
@@ -24,4 +24,4 @@ function getAndPrintHTMLChunks () {
 
 }
 
-console.log(getAndPrintHTMLChunks());
+console.log(getAndPrintHTML());
