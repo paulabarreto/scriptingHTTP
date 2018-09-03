@@ -1,9 +1,8 @@
-var https = require('https');
-
-var printData = [];
-
-
 function getHTML (options, callback) {
+
+  var https = require('https');
+
+  var printData = [];
 
   https.get(requestOptions, function (response) {
 
